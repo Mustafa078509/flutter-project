@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "642126159161",
+    "project_id": "mostafa-74148",
+    "storage_bucket": "mostafa-74148.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642126159161:android:cbcc9e58ba0c3858211ce8",
+        "android_client_info": {
+          "package_name": "com.example.untitled"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "642126159161-8gad7d8kduhhnjlfm7v6nc9893ivh9n8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsmmXZTmK7TDMOcFeEDvdwYyTu2pxoxtU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "642126159161-8gad7d8kduhhnjlfm7v6nc9893ivh9n8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
