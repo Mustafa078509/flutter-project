@@ -133,6 +133,7 @@ class _homeState extends State<home> {
                             InkWell(
                               onTap: (){
 
+
                                 print("mostafa");
 
                               },
@@ -324,6 +325,8 @@ class _homeState extends State<home> {
           InkWell(
             onHover: (value) {},
             onTap: () {
+              Navigator.pushReplacementNamed(context,"Special");
+
               int x = 0xff92085e;
 
               print("mostafa");
@@ -365,6 +368,7 @@ class _homeState extends State<home> {
             onHover: (value) {},
             onTap: () {
               int x = 0xff92085e;
+              Navigator.pushReplacementNamed(context,"Product2");
 
               print("mostafa");
             },
@@ -405,6 +409,7 @@ class _homeState extends State<home> {
             onHover: (value) {},
             onTap: () {
               int x = 0xff92085e;
+              Navigator.pushReplacementNamed(context,"Product1");
 
               print("mostafa");
             },
@@ -425,9 +430,7 @@ class _homeState extends State<home> {
 
                     decoration: BoxDecoration(
                         image: DecorationImage(image: NetworkImage(
-                            "https://previews.123rf.com/imag"
-                                "es/pixelery/pixelery1610/pixelery161000057/65005794-offre-sp%C"
-                                "3%A9ciale-texte-suspendu-sur-les-cordes-illustration-3d.jpg"),
+                            "https://thumbs.dreamstime.com/z/icon-computer-computer-accessories-computer-icons-computer-accessories-icons-set-vector-illustration-peripheral-units-136223025.jpg"),
                             fit: BoxFit.cover)
                     ),
 
@@ -447,6 +450,7 @@ class _homeState extends State<home> {
             onHover: (value) {},
             onTap: () {
               int x = 0xff92085e;
+              Navigator.pushReplacementNamed(context,"Special");
 
               print("mostafa");
             },

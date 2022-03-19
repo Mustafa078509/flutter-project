@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:untitled/screen/Cart.dart';
 import 'package:untitled/screen/Product2.dart';
 import 'package:untitled/screen/Special%20offer.dart';
 import 'package:untitled/screen/abouts.dart';
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
         'Abouts':(context) => const Abouts(),
         'Product1':(context) =>const Product1(),
         'Product2':(context) => const Product2(),
-
+        'Cart':(context) => Cart(),
 
       },
 

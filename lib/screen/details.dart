@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:untitled/screen/ui%20screen.dart';
@@ -126,6 +128,8 @@ class _DetailsState extends State<Details> {
 
                 ElevatedButton(onPressed:() {
 
+                  insertCart(widget.name,widget.price,widget.image);
+                   print("mm");
                 },  child: Text("Cart") ,)
 
 
@@ -200,11 +204,19 @@ class _DetailsState extends State<Details> {
     );
   }
 
-/*
-  Future insertCart()async{
+  Future insertCart(String x, String y, String z )async{
    var  Url= Uri.parse("http://192.168.1.125/pro/Untitled-1.php");
-   var res = await http.post(Url,body:
-   });
+
+    var res = await http.post(Url,body:{
+
+         "name": "$x",
+         "Price":"$y",
+         "image":"$z",
+
+
+   },
+
+   );
 
 
 
@@ -212,7 +224,6 @@ class _DetailsState extends State<Details> {
 
   }
 
-*/
 
 
 
